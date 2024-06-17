@@ -1,0 +1,98 @@
+{
+  // If Override Config is true, Payment Size can be any positive value, the total debt will be the sum of Payment Size across all Payments.
+  // If false, Payment Size is integer increments of .1% (IE: 10 = 1%, 100 = 10%, 1000 = 100%) - Payment Size needs to sum to 1000 (100%) across all payments.
+  // JojaDevelopmentCredits must be positive and add up to the costs under JojaCosts. These costs determine the additional cost to the development form.
+  // Payment Name can be ignored or removed, but exists to make testing custom JSON easier.
+  "PlanName":  "PlanOne.json",
+  "OverrideConfig": false,
+  "JojaCosts": {
+    "GreenhouseCost": 200,
+    "BridgeCost": 200,
+    "BusCost": 200,
+    "BoulderCost": 200,
+    "MinecartCost": 200
+  },
+  "Payments": [
+    {
+      "PaymentName": "Payment 1",
+      "PaymentSize": 100,
+      "PaidTowardsDebt": 0,
+      "Finished": false,
+      "DaysToPay": 28,
+      "JojaDevelopmentCredits": 100
+    },
+    {
+      "PaymentName": "Payment 2",
+      "PaymentSize": 100,
+      "PaidTowardsDebt": 0,
+      "Finished": false,
+      "DaysToPay": 28,
+      "JojaDevelopmentCredits": 100
+    },
+    {
+      "PaymentName": "Payment 3",
+      "PaymentSize": 100,
+      "PaidTowardsDebt": 0,
+      "Finished": false,
+      "DaysToPay": 28,
+      "JojaDevelopmentCredits": 100
+    },
+    {
+      "PaymentName": "Payment 4",
+      "PaymentSize": 100,
+      "PaidTowardsDebt": 0,
+      "Finished": false,
+      "DaysToPay": 28,
+      "JojaDevelopmentCredits": 100
+    },
+    {
+      "PaymentName": "Payment 5",
+      "PaymentSize": 100,
+      "PaidTowardsDebt": 0,
+      "Finished": false,
+      "DaysToPay": 28,
+      "JojaDevelopmentCredits": 100
+    },
+    {
+      "PaymentName": "Payment 6",
+      "PaymentSize": 100,
+      "PaidTowardsDebt": 0,
+      "Finished": false,
+      "DaysToPay": 28,
+      "JojaDevelopmentCredits": 100
+    },
+    {
+      "PaymentName": "Payment 7",
+      "PaymentSize": 100,
+      "PaidTowardsDebt": 0,
+      "Finished": false,
+      "DaysToPay": 28,
+      "JojaDevelopmentCredits": 100
+    },
+    {
+      "PaymentName": "Payment 8",
+      "PaymentSize": 100,
+      "PaidTowardsDebt": 0,
+      "Finished": false,
+      "DaysToPay": 28,
+      "JojaDevelopmentCredits": 100
+    },
+    {
+      "PaymentName": "Payment 9",
+      "PaymentSize": 100,
+      "PaidTowardsDebt": 0,
+      "Finished": false,
+      "DaysToPay": 28,
+      "JojaDevelopmentCredits": 100
+    },
+    {
+      "PaymentName": "Payment 10",
+      "PaymentSize": 100,
+      "PaidTowardsDebt": 0,
+      "Finished": false,
+      "DaysToPay": 28,
+      "JojaDevelopmentCredits": 100
+    }
+  ]
+}
+  

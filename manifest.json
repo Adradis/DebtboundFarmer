@@ -1,0 +1,10 @@
+{
+  "Name": "Debtbound Farmer",
+  "Author": "Adradis",
+  "Version": "0.0.1",
+  "Description": "Challenging Hard Mode with escalating debt and community development tied to payoff.",
+  "UniqueID": "Adradis.DebtboundFarmer",
+  "EntryDll": "DebtboundFarmer.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ ]
+}
